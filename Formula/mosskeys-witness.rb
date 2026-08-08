@@ -19,23 +19,23 @@ class MosskeysWitness < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/moss-piglet/mosskeys-witness/releases/download/v0.4.0/mosskeys-witness-0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f60dac6c56cb3790aebf580ab8f3097ef2695ab9276f3093692646f092ff9bba"
+      url "https://github.com/moss-piglet/mosskeys-witness/releases/download/v0.4.1/mosskeys-witness-0.4.1-aarch64-apple-darwin.tar.gz"
+      sha256 "c00e1c69594fbb87fda40cd8db3c00b085b9d5207cdf6f95c142f6a27fd80d7b"
     end
     on_intel do
-      url "https://github.com/moss-piglet/mosskeys-witness/releases/download/v0.4.0/mosskeys-witness-0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d3e6d8a6761f9c94fa412f114575145027cf52dcb6cc8da514f7e626acdd3df8"
+      url "https://github.com/moss-piglet/mosskeys-witness/releases/download/v0.4.1/mosskeys-witness-0.4.1-x86_64-apple-darwin.tar.gz"
+      sha256 "a966ed98db21e2eebb5555439ef7516d68ed5d06e06d88b84a912107a39d0c95"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/moss-piglet/mosskeys-witness/releases/download/v0.4.0/mosskeys-witness-0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "455307fa19cb212229af0ff341455474c861ec31b8ce47c8b5f95d0b3dabb789"
+      url "https://github.com/moss-piglet/mosskeys-witness/releases/download/v0.4.1/mosskeys-witness-0.4.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "aedbc632b78defdf5c7e7643d70f06bdefb666cdbae1516a7b1288f9e854338b"
     end
     on_intel do
-      url "https://github.com/moss-piglet/mosskeys-witness/releases/download/v0.4.0/mosskeys-witness-0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "682f8f25bb320623f2ac290e66944b6b769f1bc25cd14a5151d64db889b8aa6c"
+      url "https://github.com/moss-piglet/mosskeys-witness/releases/download/v0.4.1/mosskeys-witness-0.4.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d078a4393b433fe2d2604df646e5fa3ea7b342be2a297bfc88421b685d75a57a"
     end
   end
 
